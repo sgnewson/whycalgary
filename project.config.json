@@ -21,14 +21,8 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
-			"list": [
-				{
-					"id": -1,
-					"name": "map page",
-					"pathName": "pages/map/map"
-				}
-			]
+			"current": -1,
+			"list": []
 		}
 	}
 }

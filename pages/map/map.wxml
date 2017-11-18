@@ -1,5 +1,5 @@
 <view class="container">
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<!-- <map scale="10" latitude='51.0486' longitude='-114.0708'/> -->
+<image src='https://maps.googleapis.com/maps/api/staticmap?center=Calgary&zoom=13&size=600x300&maptype=roadmap&key=AIzaSyAn-ygwnwLpU0Tq27OUqr3NsQ1KNHKlTfY'/>
 </view>
+
