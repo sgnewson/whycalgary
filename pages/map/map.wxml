@@ -1,5 +1,5 @@
 <view class="container">
 <!-- <map scale="10" latitude='51.0486' longitude='-114.0708'/> -->
-<image src='https://maps.googleapis.com/maps/api/staticmap?center=Calgary&zoom=13&size=600x300&maptype=roadmap&key=AIzaSyAn-ygwnwLpU0Tq27OUqr3NsQ1KNHKlTfY' bindtap='maptap'/>
+<image class='map' src='https://maps.googleapis.com/maps/api/staticmap?center=Calgary,Alberta,NY&zoom=10&size=300x450&maptype=roadmap&markers=color:red%7Clabel:F%7C51.06418294,-114.1321766&markers=color:red%7Clabel:P%7C51.07901635,-113.9839435&markers=color:red%7Clabel:R%7C50.99182889,-114.0963207&markers=color:red%7Clabel:S%7C50.88210185,-113.9517038&markers=color:red%7Clabel:C%7C51.07455988,-114.1479576&key=AIzaSyAn-ygwnwLpU0Tq27OUqr3NsQ1KNHKlTfY' bindtap='maptap'/>
 </view>
 
