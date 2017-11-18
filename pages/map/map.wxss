@@ -18,3 +18,7 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.map {
+  height: 500px;
+}
