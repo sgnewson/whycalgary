@@ -1,4 +1,4 @@
-# Why Calgary? We Help!
+# Why Calgary? Wee!Help!
 
 ## Story
 Someone from a WeChat lifestyle comes to Calgary (moving or travelling). When they land, they can see the nearby mini-programs available (currently just us!), this could include similar programs for activities, events, immigration...
