@@ -6,8 +6,8 @@ Page({
     hours: "default",
     specialty: "default",
     waiting_time: "default",
-    tel_number: '+1 (403) 955-7211',
-    address: '2888 Shaganappi Trail NW',
+    tel_number: 'default',
+    address: 'default',
     longitude: 51.07455988,
     latitude: -114.1479576,
     scale: 15
@@ -41,7 +41,6 @@ Page({
       scale: this.data.scale,
       name: this.data.name, // Location name
       address: this.data.address, // Detailed description of address
-      infoUrl: 'http://www.childrenshospital.ab.ca/site/PageServer?pagename=home_template' // Hyperlink displayed at the bottom of the location viewing interface, which can be clicked to view the URL
     })
   }
 })
