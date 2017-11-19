@@ -16,6 +16,10 @@ To build and run open in WeChat Dev Tool (微信开发者工具) you will need a
 
 ## Video 
 ![Demo screen recording](https://github.com/sgnewson/whycalgary/blob/master/document/demo.gif "Demo screen recording")
-Recorded with Quicktime and transcribed with: `ffmpeg -i demo.mov -s 240x426 -pix_fmt rgb24 -r 3 -f gif - | gifsicle --optimize=3 --delay=20 > demo.gif`
+<br/>
+Recorded with Quicktime and transcribed with: 
+```
+ffmpeg -i demo.mov -s 240x426 -pix_fmt rgb24 -r 3 -f gif - | gifsicle --optimize=3 --delay=20 > demo.gif
+```
 
 
