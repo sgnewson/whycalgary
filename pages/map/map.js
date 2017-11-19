@@ -14,17 +14,16 @@ Page({
       height: 45,
       location_detail: {
         name: "Alberta Children's Hospital",
-        description: "hospital_desc",
+        description: "Alberta Children's Hospital is the largest public hospital for sick children in the prairie provinces, and is located in Calgary, Alberta, Canada. It is operated by Alberta Health Services - Calgary Health Region",
         address: "2888 Shaganappi Trail NW",
         tel_number: "123456789",
         hours: "9AM - 5PM",
-        specialty: "teeth",
-        waiting_time: "15 mins"
+        specialty: "Pediatric hospital (儿童医院)",
+        waiting_time: "30 minutes"
       }
     }],
   },
   maptap: function() {
-    console.log("Aloha");
     wx.navigateTo({
       url: '../map-detail/map-detail',
     })
