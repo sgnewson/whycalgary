@@ -1,3 +1,14 @@
 .note {
   color: blue
 }
+.container {
+  font-size: 10pt;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
