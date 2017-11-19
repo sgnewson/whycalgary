@@ -6,4 +6,5 @@
   <text class="action" bindtap='phonetap'>Phone number: {{tel_number}}</text>
   <text>Hours: {{hours}}</text>
   <text>Waiting time: {{waiting_time}}</text>
+  <text class="payment_action">Pay with WeChat</text>
 </view>

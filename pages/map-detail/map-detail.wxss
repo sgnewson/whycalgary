@@ -4,3 +4,7 @@
 .action {
   color: blue;
 }
+
+.payment_action {
+  color: yellow;
+}
