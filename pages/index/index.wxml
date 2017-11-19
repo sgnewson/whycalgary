@@ -1,4 +1,11 @@
 <view class="container">
-<p>This is our text. It tells people what 911 is and how to use insurance.</p>
-<p bindtap='textTap'>Click here</p>
+  <text>If its an emergency, call 911 or go to the emergency department of hospitals (with red cross icon on the map).</text>
+  <image src='../../image/hospital_icon.png'></image>
+  <text>In case of non-emergency, you can go to any of the walk-in clinics (with the blue cross on the map).</text>
+  <image src='../../image/clinic_icon.png'></image>
+  <text>In Calgary, there are a variety of medical resources available. Hospital is for emergency. Clinics are for non-emergency. Some places specialize in specific conditions, so make sure you are going to the right place.</text>
+  <text>Clinics are more convinient and have more options. They have shorter waiting times, and usually they are cheaper for tourists than hospitals.</text>
+  <text>Reminder to bring: photo-id (passport), history of the condition and prescriptions for any medication you are taking.</text>
+  <text>If you need help translating or completing forms, contact HERE</text>
+  <text>Make sure to keep all records and reciepts so that you can provide them to your insurance provider afterwards.</text>
 </view>
