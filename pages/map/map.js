@@ -1,7 +1,7 @@
 const app = getApp()
 const icon_width = 35
 const icon_height = 45
-const phone_number = '+1-123-456-7890'
+const phone_number = '403.555.1234'
 
 const hospital_icon = "../../image/hospital_icon.png"
 const clinic_icon = "../../image/clinic_icon.png"
