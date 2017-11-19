@@ -1,3 +1,6 @@
-<view class="section">
-  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="Take Notes Here" />
+<view class="container">
+  <view class="section">
+    <textarea bindblur="bindTextAreaBlur" auto-height placeholder="Take Notes Here" />
+  </view>
+  <text bindtap="takephoto">Take Photo</text>
 </view>
