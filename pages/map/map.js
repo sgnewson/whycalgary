@@ -1,6 +1,7 @@
 const app = getApp()
 const icon_width = 35
 const icon_height = 45
+const phone_number = '+1-123-456-7890'
 
 Page({
   data: {
@@ -18,7 +19,7 @@ Page({
         name: "Alberta Children's Hospital",
         description: "Alberta Children's Hospital is the largest public hospital for sick children in the prairie provinces, and is located in Calgary, Alberta, Canada. It is operated by Alberta Health Services - Calgary Health Region",
         address: "2888 Shaganappi Trail NW",
-        tel_number: "403-555-1234",
+        tel_number: phone_number,
         hours: "9AM - 5PM",
         specialty: "Pediatric hospital (儿童医院)",
         waiting_time: "30 minutes"
@@ -34,7 +35,7 @@ Page({
         name: "Rockyview General Hospital",
         description: "Description: TODO",
         address: "7007 - 14 ST SW",
-        tel_number: "403-555-1234",
+        tel_number: phone_number,
         hours: "9AM - 9PM",
         specialty: "General Hospital",
         waiting_time: "30 minutes"
@@ -50,7 +51,7 @@ Page({
         name: "Foothills Hospital",
         description: "Description: TODO",
         address: "1403 - 29 ST NW",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "9AM - 5PM",
         specialty: "Research Hospital",
         waiting_time: "1 hour"
@@ -66,7 +67,7 @@ Page({
         name: "South Health Campus",
         description: "Description: TODO",
         address: "4448 FRONT ST SE",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "6AM - 5PM",
         specialty: "Most Southern Hospital",
         waiting_time: "1.5 hour"
@@ -82,7 +83,7 @@ Page({
         name: "Peter Lougheed Medical Centre",
         description: "Description: TODO",
         address: "3500 - 26 AV NE",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "6AM - 11PM",
         specialty: "General Hospital",
         waiting_time: "2 hours"
@@ -98,7 +99,7 @@ Page({
         name: "Sheldon M. Chumir Health Centre",
         description: "Description: TODO",
         address: "1213 - 4 ST SW",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "9AM - 5PM",
         specialty: "Health Clinic",
         waiting_time: "15 minutes"
@@ -114,7 +115,7 @@ Page({
         name: "Shaganappi Complex Health Centre",
         description: "Description: TODO",
         address: "3415 - 8 AV SW",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "9AM - 5PM",
         specialty: "Health Clinic",
         waiting_time: "15 minutes"
@@ -130,7 +131,7 @@ Page({
         name: "Village Square Community Health Centre",
         description: "Description: TODO",
         address: "2623 - 56 ST NE",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "9AM - 5PM",
         specialty: "Health Clinic",
         waiting_time: "15 minutes"
@@ -146,7 +147,7 @@ Page({
         name: "Acadia Community Health Centre",
         description: "Description: TODO",
         address: "151 - 86 AV SE",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "9AM - 5PM",
         specialty: "Health Clinic",
         waiting_time: "15 minutes"
@@ -162,7 +163,7 @@ Page({
         name: "Wyckham Pharmacy",
         description: "Description: TODO",
         address: "4825 Mt Royal Gate SW",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "9AM - 5PM",
         specialty: "Pharmacy",
         waiting_time: "15 minutes"
@@ -178,7 +179,7 @@ Page({
         name: "Safeway Pharmacy",
         description: "Description: TODO",
         address: "7740 18 St SE",
-        tel_number: "123-456-7890",
+        tel_number: phone_number,
         hours: "9AM - 5PM",
         specialty: "Pharmacy",
         waiting_time: "15 minutes"
