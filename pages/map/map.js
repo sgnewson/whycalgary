@@ -9,9 +9,9 @@ const pharmacy_icon = "../../image/pharmacy_icon.png"
 
 Page({
   data: {
-    motto: 'Show map',
-    longitude: -114.095556,
-    latitude: 51.065213,
+    map_centre_longitude: -114.095556,
+    map_centre_latitude: 51.065213,
+
     markers: [{
       iconPath: hospital_icon,
       id: 0,
