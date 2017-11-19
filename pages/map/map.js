@@ -3,13 +3,17 @@ const icon_width = 35
 const icon_height = 45
 const phone_number = '+1-123-456-7890'
 
+const hospital_icon = "../../image/hospital_icon.png"
+const clinic_icon = "../../image/clinic_icon.png"
+const pharmacy_icon = "../../image/pharmacy_icon.png"
+
 Page({
   data: {
     motto: 'Show map',
     longitude: -114.095556,
     latitude: 51.065213,
     markers: [{
-      iconPath: "../../image/hospital_icon.png",
+      iconPath: hospital_icon,
       id: 0,
       latitude: 51.07455988,
       longitude: -114.1479576,
@@ -25,7 +29,7 @@ Page({
         waiting_time: "30 minutes"
       }
     }, {
-      iconPath: "../../image/hospital_icon.png",
+      iconPath: hospital_icon,
       id: 1,
       latitude: 50.99182889,
       longitude: -114.0963207,
@@ -41,7 +45,7 @@ Page({
         waiting_time: "30 minutes"
       }
     }, {
-      iconPath: "../../image/hospital_icon.png",
+      iconPath: hospital_icon,
       id: 2,
       latitude: 51.06418294,
       longitude: -114.1321766,
@@ -57,7 +61,7 @@ Page({
         waiting_time: "1 hour"
       }
     }, {
-      iconPath: "../../image/hospital_icon.png",
+      iconPath: hospital_icon,
       id: 3,
       latitude: 50.88210185,
       longitude: -113.9517038,
@@ -73,7 +77,7 @@ Page({
         waiting_time: "1.5 hour"
       }
     }, {
-      iconPath: "../../image/hospital_icon.png",
+      iconPath: hospital_icon,
       id: 4,
       latitude: 51.07901635,
       longitude: -113.9839435,
@@ -89,7 +93,7 @@ Page({
         waiting_time: "2 hours"
       }
     }, {
-      iconPath: "../../image/clinic_icon.png",
+      iconPath: clinic_icon,
       id: 5,
       latitude: 51.04116344,
       longitude: -114.0721296,
@@ -105,7 +109,7 @@ Page({
         waiting_time: "15 minutes"
       }
     }, {
-      iconPath: "../../image/clinic_icon.png",
+      iconPath: clinic_icon,
       id: 6,
       latitude: 51.04488712,
       longitude: -114.1368419,
@@ -121,7 +125,7 @@ Page({
         waiting_time: "15 minutes"
       }
     }, {
-      iconPath: "../../image/clinic_icon.png",
+      iconPath: clinic_icon,
       id: 7,
       latitude: 51.07553893,
       longitude: -113.9535557,
@@ -137,7 +141,7 @@ Page({
         waiting_time: "15 minutes"
       }
     }, {
-      iconPath: "../../image/clinic_icon.png",
+      iconPath: clinic_icon,
       id: 8,
       latitude: 50.97507203,
       longitude: -114.0709401,
@@ -153,7 +157,7 @@ Page({
         waiting_time: "15 minutes"
       }
     }, {
-      iconPath: "../../image/pharmacy_icon.png",
+      iconPath: pharmacy_icon,
       id: 9,
       latitude: 51.013734,
       longitude: -114.1330795,
@@ -169,7 +173,7 @@ Page({
         waiting_time: "15 minutes"
       }
     }, {
-      iconPath: "../../image/pharmacy_icon.png",
+      iconPath: pharmacy_icon,
       id: 10,
       latitude: 50.984466,
       longitude: -114.0153965,
