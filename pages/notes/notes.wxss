@@ -2,3 +2,6 @@ textarea {
   border-style: solid;
   height: 10em;
 }
+.take-photo {
+  margin-bottom: 10px;
+}

@@ -199,7 +199,6 @@ Page({
   },
   
   markertap: function(e) {
-    console.log(this.data.markers[e.markerId].location_detail)
     var marker_data = this.data.markers[e.markerId]
     var l_detail = marker_data.location_detail
     wx.navigateTo({
@@ -212,6 +211,7 @@ Page({
         + '&waiting_time=' + l_detail.waiting_time
         + '&longitude=' + marker_data.longitude
         + '&latitude=' + marker_data.latitude
+        + '&iconPath=' + marker_data.iconPath
     })
     // wx.showToast({
     //   // title: this.data.markers[e.markerId].location_detail

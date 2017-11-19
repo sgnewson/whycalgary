@@ -10,11 +10,12 @@ Page({
     address: 'default',
     longitude: 51.07455988,
     latitude: -114.1479576,
+    iconPath: 'default',
     scale: 15
   },
 
   onLoad: function (options) {
-    // console.log(options)
+    console.log(options)
     this.setData({
       name: options.name,
       description: options.description,
@@ -24,7 +25,8 @@ Page({
       specialty: options.specialty,
       waiting_time: options.waiting_time,
       longitude: options.longitude,
-      latitude: options.latitude
+      latitude: options.latitude,
+      iconPath: options.iconPath
     })
   },
 

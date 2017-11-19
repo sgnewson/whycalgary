@@ -1,11 +1,15 @@
 <view class="container">
-  <text class="title">{{name}}</text>
+  <view class='header'>
+    <image class='title-icon' src="{{iconPath}}"></image>
+    <text class="title-text">{{name}}</text>
+  </view>
+  
   <text>{{description}}</text>
   <text>Specialty: {{specialty}}</text>
-  <text class="action" bindtap='addresstap'>Address: {{address}}</text>
-  <text class="action" bindtap='phonetap'>Phone number: {{tel_number}}</text>
+  <button class="action" bindtap='addresstap'>Address: {{address}}</button>
+  <button class="action" bindtap='phonetap'>Phone number: {{tel_number}}</button>
   <text>Hours: {{hours}}</text>
   <text>Waiting time: {{waiting_time}}</text>
-  <text class="payment_action">Pay with WeChat</text>
-  <text class="action">Click here for reviews</text>
+  <button class="payment_action">Pay with WeChat</button>
+  <button class="review_action">Click here for reviews</button>
 </view>

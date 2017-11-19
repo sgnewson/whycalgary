@@ -1,6 +1,33 @@
-.title {
+.title-text {
   font-weight: bold;
 }
+.title-icon {
+  height: 20px;
+  width: 20px;
+}
+text {
+  margin: 0.5em;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  text-align: left;
+  padding: 10px;
+}
+button {
+  margin: 5px;
+}
 .payment_action {
+  color: yellowgreen;
+  width: 100%;
+  position: relative;
+  margin-top: 30%;
+  font-weight: bold;
+}
+.review_action {
   color: orange;
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+  font-weight: bold;
 }

@@ -1,5 +1,5 @@
 <view class="container">
-  <text class="action" bindtap="takephoto">Take Photo</text>
+  <button class="take-photo" bindtap="takephoto">Take Photo</button>
   <view class="section">
     <textarea class="note-area" placeholder="Take Notes Here" />
   </view>
