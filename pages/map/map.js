@@ -87,6 +87,102 @@ Page({
         specialty: "General Hospital",
         waiting_time: "2 hours"
       }
+    }, {
+      iconPath: "../../image/clinic_icon.png",
+      id: 5,
+      latitude: 51.04116344,
+      longitude: -114.0721296,
+      width: icon_width,
+      height: icon_height,
+      location_detail: {
+        name: "Sheldon M. Chumir Health Centre",
+        description: "Description: TODO",
+        address: "1213 - 4 ST SW",
+        tel_number: "123-456-7890",
+        hours: "9AM - 5PM",
+        specialty: "Health Clinic",
+        waiting_time: "15 minutes"
+      }
+    }, {
+      iconPath: "../../image/clinic_icon.png",
+      id: 6,
+      latitude: 51.04488712,
+      longitude: -114.1368419,
+      width: icon_width,
+      height: icon_height,
+      location_detail: {
+        name: "Shaganappi Complex Health Centre",
+        description: "Description: TODO",
+        address: "3415 - 8 AV SW",
+        tel_number: "123-456-7890",
+        hours: "9AM - 5PM",
+        specialty: "Health Clinic",
+        waiting_time: "15 minutes"
+      }
+    }, {
+      iconPath: "../../image/clinic_icon.png",
+      id: 7,
+      latitude: 51.07553893,
+      longitude: -113.9535557,
+      width: icon_width,
+      height: icon_height,
+      location_detail: {
+        name: "Village Square Community Health Centre",
+        description: "Description: TODO",
+        address: "2623 - 56 ST NE",
+        tel_number: "123-456-7890",
+        hours: "9AM - 5PM",
+        specialty: "Health Clinic",
+        waiting_time: "15 minutes"
+      }
+    }, {
+      iconPath: "../../image/clinic_icon.png",
+      id: 8,
+      latitude: 50.97507203,
+      longitude: -114.0709401,
+      width: icon_width,
+      height: icon_height,
+      location_detail: {
+        name: "Acadia Community Health Centre",
+        description: "Description: TODO",
+        address: "151 - 86 AV SE",
+        tel_number: "123-456-7890",
+        hours: "9AM - 5PM",
+        specialty: "Health Clinic",
+        waiting_time: "15 minutes"
+      }
+    }, {
+      iconPath: "../../image/pharmacy_icon.png",
+      id: 9,
+      latitude: 51.013734,
+      longitude: -114.1330795,
+      width: icon_width,
+      height: icon_height,
+      location_detail: {
+        name: "Wyckham Pharmacy",
+        description: "Description: TODO",
+        address: "4825 Mt Royal Gate SW",
+        tel_number: "123-456-7890",
+        hours: "9AM - 5PM",
+        specialty: "Pharmacy",
+        waiting_time: "15 minutes"
+      }
+    }, {
+      iconPath: "../../image/pharmacy_icon.png",
+      id: 10,
+      latitude: 50.984466,
+      longitude: -114.0153965,
+      width: icon_width,
+      height: icon_height,
+      location_detail: {
+        name: "Safeway Pharmacy",
+        description: "Description: TODO",
+        address: "7740 18 St SE",
+        tel_number: "123-456-7890",
+        hours: "9AM - 5PM",
+        specialty: "Pharmacy",
+        waiting_time: "15 minutes"
+      }
     }],
   },
 

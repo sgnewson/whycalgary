@@ -6,5 +6,5 @@
 }
 
 .payment_action {
-  color: yellow;
+  color: orange;
 }

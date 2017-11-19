@@ -1,6 +1,3 @@
-.note {
-  color: blue
-}
 .container {
   font-size: 10pt;
   line-height: 25px;
@@ -12,4 +9,7 @@
   width: 50px;
   margin-top: 5px;
   margin-bottom: 15px;
+}
+.action {
+  color: blue;
 }

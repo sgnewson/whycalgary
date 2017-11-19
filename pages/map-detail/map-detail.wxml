@@ -7,4 +7,5 @@
   <text>Hours: {{hours}}</text>
   <text>Waiting time: {{waiting_time}}</text>
   <text class="payment_action">Pay with WeChat</text>
+  <text class="action">Click here for reviews</text>
 </view>
