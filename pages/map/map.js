@@ -31,7 +31,8 @@ Page({
   },
   markertap: function(e) {
     console.log(this.data.markers[e.markerId].location_detail)
-    var l_detail = this.data.markers[e.markerId].location_detail
+    var marker_data = this.data.markers[e.markerId]
+    var l_detail = marker_data.location_detail
     wx.navigateTo({
       url: '../map-detail/map-detail?name=' + l_detail.name
         + '&description=' + l_detail.description
@@ -40,6 +41,8 @@ Page({
         + '&hours=' + l_detail.hours
         + '&specialty=' + l_detail.specialty
         + '&waiting_time=' + l_detail.waiting_time
+        + '&longitude=' + marker_data.longitude
+        + '&latitude=' + marker_data.latitude
     })
     // wx.showToast({
     //   // title: this.data.markers[e.markerId].location_detail
