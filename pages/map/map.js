@@ -151,6 +151,38 @@ Page({
         specialty: "Health Clinic",
         waiting_time: "15 minutes"
       }
+    }, {
+      iconPath: "../../image/pharmacy_icon.png",
+      id: 9,
+      latitude: 51.013734,
+      longitude: -114.1330795,
+      width: icon_width,
+      height: icon_height,
+      location_detail: {
+        name: "Wyckham Pharmacy",
+        description: "Description: TODO",
+        address: "4825 Mt Royal Gate SW",
+        tel_number: "123-456-7890",
+        hours: "9AM - 5PM",
+        specialty: "Pharmacy",
+        waiting_time: "15 minutes"
+      }
+    }, {
+      iconPath: "../../image/pharmacy_icon.png",
+      id: 10,
+      latitude: 50.984466,
+      longitude: -114.0153965,
+      width: icon_width,
+      height: icon_height,
+      location_detail: {
+        name: "Safeway Pharmacy",
+        description: "Description: TODO",
+        address: "7740 18 St SE",
+        tel_number: "123-456-7890",
+        hours: "9AM - 5PM",
+        specialty: "Pharmacy",
+        waiting_time: "15 minutes"
+      }
     }],
   },
 
