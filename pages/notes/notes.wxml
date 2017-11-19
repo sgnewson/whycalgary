@@ -1,0 +1,3 @@
+<view class="section">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="Take Notes Here" />
+</view>

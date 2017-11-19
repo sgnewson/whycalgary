@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/map/map",
-    "pages/map-detail/map-detail"
+    "pages/map-detail/map-detail",
+    "pages/notes/notes"
   ],
   "window": {
     "backgroundTextStyle":"light",
@@ -25,6 +26,11 @@
       "iconPath": "image/map.png",
       "selectedIconPath": "image/map-filled.png",
       "text": "Map"
+    }, {
+      "pagePath": "pages/notes/notes",
+      "iconPath": "image/notes.png",
+      "selectedIconPath": "image/notes-filled.png",
+      "text": "Notes"
     }]
   }
 
