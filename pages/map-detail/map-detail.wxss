@@ -1,10 +1,6 @@
 .title {
   font-weight: bold;
 }
-.action {
-  color: blue;
-}
-
 .payment_action {
   color: orange;
 }

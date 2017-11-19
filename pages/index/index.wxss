@@ -10,9 +10,6 @@
   margin-top: 5px;
   margin-bottom: 15px;
 }
-.action {
-  color: blue;
-}
 text {
   padding-bottom: 1em;
 }
