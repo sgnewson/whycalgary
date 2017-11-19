@@ -1,7 +1,7 @@
 <view class="container">
-  <view class="section">
-    <textarea auto-height placeholder="Take Notes Here" />
-  </view>
   <text class="action" bindtap="takephoto">Take Photo</text>
+  <view class="section">
+    <textarea class="note-area" placeholder="Take Notes Here" />
+  </view>
   <image src="{{src}}"/>
 </view>

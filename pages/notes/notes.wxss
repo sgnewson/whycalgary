@@ -1,0 +1,4 @@
+textarea {
+  border-style: solid;
+  height: 10em;
+}
