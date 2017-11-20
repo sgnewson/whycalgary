@@ -14,6 +14,11 @@ To build and run open in WeChat Dev Tool (微信开发者工具) you will need a
 - https://medium.com/@yelin.qiu/a-complete-manual-on-wechat-mini-program-development-8fd28a85ee0d
 - https://medium.com/@yelin.qiu/coding-for-wechat-mini-programs-52362e050a5b
 
+Documentation is available here:
+- https://github.com/apelegri/wechat-miniprogram-wiki
+- http://open.wechat.com/cgi-bin/newreadtemplate?t=overseas_open/docs/mini-programs/development/brief-tutorial#development_brief-tutorial
+- https://mp.weixin.qq.com/debug/wxadoc/dev/api/
+
 ## Video 
 ![Demo screen recording](https://github.com/sgnewson/whycalgary/blob/master/document/demo.gif "Demo screen recording")
 <br/>
